@@ -1,0 +1,73 @@
+body {
+  background-image: url("../img/pattern-two.png");
+  font-family: 'VT323', monospace;
+}
+
+.mt {
+  margin-top: 1%;
+}
+.titulo {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+
+.reglas {
+  font-size: 30px;
+  color: #FFE000;
+}
+
+.sede {
+  font-size: 25px;
+  color: white;
+}
+
+.pais {
+  font-size: 20px;
+}
+
+.puntos {
+  font-size: 25px;
+  color: #FFE000;
+}
+
+.borde {
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+#perfil {
+  width: 280px;
+  height: 280px;
+}
+
+#nombre {
+  color: #AFFF2E;
+  font: 20px;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 15px;
+  visibility: hidden;
+}
+
+#name {
+  width: 90%;
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+
+#btncomprobar {
+  background-color: #AFFF2E;
+  color: white;
+  border:none;
+  padding:5px 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#info {
+  font-size: 20px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}

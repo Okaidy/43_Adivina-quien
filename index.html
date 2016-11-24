@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adivina qien</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <h1 class="titulo">SMASH FACES</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <p class="reglas">Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+        </div>
+      </div>
+      <div class="row mt">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <label class="sede">Elige tu sede</label>
+          <select class="pais" id="escoger">
+            <option value="0">Escoge un país</option>
+            <option value="1">México</option>
+            <option value="2">Lima</option>
+          </select>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+          <p class="puntos">Puntos: <label id="puntos">0</label> puntos</p>
+        </div>
+      </div>
+      <div class="borde">
+        <div class="row mt">
+          <div class="col-md-5 col-sm-5 col-xs-12 text-center">
+            <img src="" alt="" id="perfil"/>
+            <p id="nombre">Nombre</p>
+          </div>
+          <div class="col-md-7 col-sm-7 col-xs-12">
+            <p class="sede">Ingresa su nombre</p>
+            <div>
+              <input id="name" type="text">
+            </div>
+            <div>
+              <button id="btncomprobar" type="button">Comprobar</button>
+            </div>
+            <label id="info"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
