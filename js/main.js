@@ -1,3 +1,4 @@
+var cont=0;
 $(document).ready( function() {
   $('#escoger').change(function() {
     escogePais();
@@ -82,7 +83,6 @@ function comprobarNombre (personas){
   var op =$('#escoger').val();
   var ptos=Number($('#puntos').text());
   var oportunidades = $('#btncomprobar');
-  var cont=0;
 
 
   if (op == 0) {
@@ -101,13 +101,13 @@ function comprobarNombre (personas){
     $('#name').val("");
     $('#name').focus();
 
-    oportunidades.click(function() {
-      cont++;
-      if (cont === 4){
-        ptos-=1;
-        $('#puntos').text(ptos);
-        escogePais();
-      }
-    });
+    cont++;
+    console.log(cont);
+    if (cont === 5){
+      cont = 0;
+      ptos-=1;
+      $('#puntos').text(ptos);
+      escogePais();
+    }
   }
 }
