@@ -93,9 +93,9 @@ function comprobarNombre (personas){
     alert('Inserte un nombre porfavor');
   } else if (minname==real){
     $('#info').text("Excelente acertaste");
-    window.setTimeout(escogePais,2000);
     ptos+=5;
     $('#puntos').text(ptos);
+    window.setTimeout(escogePais,2000);
   } else if (minname!==real) {
     $('#info').text("Sigue intentando");
     $('#name').val("");
